@@ -1,1 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALX HTML CSS</title>
+    <style>
+        /* Apply flexbox layout to body */
+        body {
+            display: flex;
+            flex-direction: column; 
+            height: 100vh; 
+            margin: 0;
+        }
 
+        
+        main {
+            display: flex;
+            flex-direction: row; 
+            flex: auto; 
+        }
+
+        
+        header, footer {
+            flex: none;
+            padding: 1rem;
+            background-color: #f1f1f1; 
+        }
+
+        
+        article {
+            flex: 2; 
+            padding: 1rem;
+            overflow-y: auto; 
+            background-color: #e3e3e3; 
+        }
+
+        /
+        aside {
+            flex: 1; 
+            padding: 1rem;
+            overflow-y: auto; 
+            background-color: #c3c3c3; 
+        }
+
+        
+        footer {
+            background-color: #f1f1f1;
+            padding: 1rem;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>This is ALX HTML CSS</h1>
+    </header>
+
+    <main>
+        <article>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus dolorem earum id eos, maxime odit voluptates. Laboriosam amet, in tempora molestiae hic inventore illo officiis, doloremque minima voluptate odio molestias.</p>
+        </article>
+
+        <aside>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, nisi cumque sit dolorem optio inventore eum ipsa a reiciendis est odit quas laboriosam fugit? Facere fugiat quisquam delectus nobis quis?</p>
+        </aside>
+    </main>
+
+    <footer>
+        <p>This was made by TLHOGI</p>
+    </footer>
+
+</body>
+</html>
