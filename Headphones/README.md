@@ -1,4 +1,10 @@
-the web page must switch to the mobile version when the screen width is 480px or less
-links hover/active: #FF6565
-button hover/active: opacity: 0.9
-max width of the content: 1000px centered in the page
+# Project Title
+
+This project is a responsive web design, optimized for both desktop and mobile users. Below are some important guidelines and notes to ensure a smooth experience when working with the project, especially when integrating with **Figma**.
+
+## Important Notes with Figma
+
+1. **Fonts**:  
+   - If your computer doesn’t have the fonts used in the design, you can download them here:  
+     - [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro)  
+     - [Spin Cycle OT](https://example.com/spin-cycle-ot) (Replace with actual
